@@ -4,7 +4,7 @@ order: 2
 
 # 数字资产建模
 
-Go SDK 封装了 IRITA [数字资产建模](../../../core_modules/nft.md) 的核心功能。
+Go SDK 封装了 IRITA OPB[数字资产建模](../../../core_modules/nft.md) 的核心功能。
 
 ## 导入
 

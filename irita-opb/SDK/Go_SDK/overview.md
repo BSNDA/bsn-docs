@@ -19,7 +19,7 @@ import (
 
 ## 初始化 SDK
 
-在调用 SDK 接口之前需初始化 SDK，即构建 IRITA 客户端。
+在调用 SDK 接口之前需初始化 SDK，即构建 IRITA OPB 客户端。
 
 ```go
 options := []types.Option{

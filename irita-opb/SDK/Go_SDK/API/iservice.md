@@ -4,7 +4,7 @@ order: 4
 
 # iService
 
-为简化基于 IRITA [iService](../../../core_modules/iservice.md) 构建分布式服务应用的复杂性，Go SDK 高度封装了 iService 核心接口，为服务消费者和提供者提供了人性化的事件监听机制。
+为简化基于 IRITA OPB [iService](../../../core_modules/iservice.md) 构建分布式服务应用的复杂性，Go SDK 高度封装了 iService 核心接口，为服务消费者和提供者提供了人性化的事件监听机制。
 
 ## 导入
 

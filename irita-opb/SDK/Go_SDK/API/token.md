@@ -4,7 +4,7 @@ order: 1
 
 # 积分
 
-Go SDK 实现了 IRITA [积分模块](../../../core_modules/token.md) 的主要操作。
+Go SDK 实现了 IRITA OPB [积分模块](../../../core_modules/token.md) 的主要操作。
 
 ## 导入
 
