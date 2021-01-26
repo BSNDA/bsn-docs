@@ -4,14 +4,14 @@ order: 2
 
 # 部署开发环境
 
-本文档介绍三种部署 IRITA 开发环境的方式，分别对应不同的用例。
+本文档介绍三种部署 IRITA OPB 开发环境的方式，分别对应不同的用例。
 
 - 单节点本地手动测试网
 - 多节点本地自动测试网
 - 多节点远程自动测试网
 
 ::: tip
-**注意**：由于 IRITA 使用了国密 `sm2` 加密算法，本文档中涉及的 `openssl` 工具需要使用支持 `sm2` 算法的版本。从源码安装步骤如下：
+**注意**：由于 IRITA OPB 使用了国密 `sm2` 加密算法，本文档中涉及的 `openssl` 工具需要使用支持 `sm2` 算法的版本。从源码安装步骤如下：
 
 ```bash
 git clone -b openssl-3.0.0-alpha4 https://github.com/openssl/openssl.git
@@ -27,7 +27,7 @@ sudo make install
 
 ### 需求
 
-- [安装 IRITA](./installation.md)
+- [安装 IRITA OPB](./installation.md)
 - [安装 `jq`](https://stedolan.github.io/jq/download/) (可选)
 - openssl
 
@@ -59,7 +59,7 @@ sudo make install
 
 5. **使用`步骤4`中的私钥文件生成证书请求并申请[签发证书](../node_identity_management/cert.md)**
 
-6. **导入 IRITA 网络的企业根证书**(需要先获取根证书)
+6. **导入 IRITA OPB 网络的企业根证书**(需要先获取根证书)
 
    ```bash
    irita set-root-cert ca.crt --home=testnet

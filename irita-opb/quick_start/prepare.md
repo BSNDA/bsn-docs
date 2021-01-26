@@ -6,7 +6,7 @@ order: 1
 
 ## 开发环境
 
-开发前请确保 IRITA 开发环境配置完成：
+开发前请确保 IRITA OPB 开发环境配置完成：
 
 - [安装](../installation/installation.md)
 
@@ -16,4 +16,4 @@ order: 1
 
 教程所用 SDK 为 `Golang` 版本。
 
-有关接口与参数等技术细节请参考 [IRITA Go SDK](../SDK/Go_SDK)
+有关接口与参数等技术细节请参考 [IRITA OPB Go SDK](../SDK/Go_SDK)

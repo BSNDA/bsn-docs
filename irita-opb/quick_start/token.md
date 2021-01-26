@@ -88,22 +88,6 @@ mintTokenReq := token.MintTokenRequest{
 _, err := client.Token.MintToken(mintTokenReq, baseTx)
 ```
 
-### 转让积分所有权
-
-调用 `Token` 模块的 `TransferToken` 方法转让积分所有权。
-
-```go
-// 构造转让积分请求
-recipient := "iaa18up8anyjpal8rncm8rd4ukp5f7etga795gp33q"
-transferTokenReq := token.TransferTokenRequest(
-    Symbol: symbol,
-    Recipient: recipient,
-}
-
-// 转让积分
-_, err := client.Token.TransferToken(transferTokenReq, baseTx)
-```
-
 ### 查询账户积分
 
 查询 recipient 的全部积分。

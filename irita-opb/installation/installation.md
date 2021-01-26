@@ -2,7 +2,7 @@
 order: 1
 -->
 
-# 安装 IRITA
+# 安装 IRITA OPB
 
 本文档将说明如何安装 `irita` (包含节点和控制台) 。
 
@@ -18,7 +18,7 @@ echo "export PATH=$PATH:$(go env GOPATH)/bin" >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
-> _注意_: IRITA 需要 `Go 1.14+`。
+> _注意_: IRITA OPB需要 `Go 1.14+`。
 
 ## 安装软件
 
