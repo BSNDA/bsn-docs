@@ -19,7 +19,7 @@
 
 使用IRITA联盟链产品的区块链行业解决方案架构示例如下：
 
-![IRITA 产品架构](https://www.bianjie.ai/dist/irita.png?a49d1266c409e2b249f2a647bd1bdfff)
+![IRITA 产品架构](./irita.png)
 
 其中，IRITA产品可提供包括区块链核心层、接口层的强大底层支持功能。除了区块链之外，IRITA还集成了分布式存储、身份证书管理、隐私计算等链外能力。以IRITA底层平台为基础，开发者可为各行业灵活定制边缘应用服务（EdgeServer）以及业务应用，并可通过IBC和iService连接各类外部的异构系统。
 
