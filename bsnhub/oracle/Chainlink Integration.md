@@ -79,14 +79,14 @@ external-initiator '{"name":"bsn-irita","type":"bsn-irita","url":"<BSN-Irita-Hub
 
 ### Install
 
-See the [BSN-Irita-Hub external adapter](https://github.com/secret2830/bsn-irita-adapter) and install the external adapter by the project docs.
+See the [BSN-Irita-Hub external adapter](https://github.com/bianjieai/irita-link-adapter) and install the external adapter by the project docs.
 
 ### Create the external adapter in the chainlink node
 
 The external adapter should be added into the chainlink node. E.g.
 
 ```bash
-chainlink bridges create '{"name":"bsn-irita-adapter", "url":"http://localhost:8080"}'
+chainlink bridges create '{"name":"irita-link-adapter", "url":"http://localhost:8080"}'
 ```
 
 ### Start
@@ -94,7 +94,7 @@ chainlink bridges create '{"name":"bsn-irita-adapter", "url":"http://localhost:8
 Configure environment variables by the documentation, then start the external adapter:
 
 ```bash
-external-adapter
+irita-link-adapter
 ```
 
 ## Start the external adapter for result conversion
@@ -158,7 +158,7 @@ Example job spec:
             "params": {"result_field": "last" }
         },
         {
-            "type": "bsn-irita-adapter"
+            "type": "irita-link-adapter"
         }
     ]
 }
